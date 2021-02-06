@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="East Mall Steering Commitee"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -49,11 +49,14 @@ export default function Components(props) {
         {...rest}
       />
       <Parallax image={require("assets/img/bg4.jpg")}>
+      <image src="../../assets/img/EMSC-WHITE.png"></image>
+
         <div className={classes.container}>
+
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
+                <h1 className={classes.title}>EAST MALL STEERING COMMITTEE</h1>
                 <h3 className={classes.subtitle}>
                   A Badass Material-UI Kit based on Material Design.
                 </h3>

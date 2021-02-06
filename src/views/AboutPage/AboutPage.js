@@ -35,19 +35,37 @@ export default function LandingPage(props) {
       />
       <Parallax filter image={require("assets/img/landing-bg.jpg")}>
         <div className={classes.container}>
+        <br/>
+        <br/>
+        <br/>
+
+        <h1 className={classes.title}>About the EMSC</h1>
+        <image src="../../assets/img/EMSC-WHITE.jpg"></image>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
 
-              <h1 className={classes.title}>EastMall to the World</h1>
-              <image src="../../assets/img/EMSC-WHITE.jpg"></image>
+              <h3>
+              WHO WE ARE
+              </h3>
               <h4>
-                Every landing page needs a small description after the big bold
-                title, that{"'"}s why we added this text here. Add here all the
-                information that can make you or your product create the first
-                impression.
+              EMSC is a Somali youth grassroots group based in a Toronto Community Housing (TCH) complex at Eastmall and Rathburn Road. Active since 2016, EMSC is a passionate advocate for Black youth in the community. EMSC was formed by a youth and mother from the community who mobilized their community to action after two youth were shot in the fall of 2016.               
               </h4>
               <br/>
             </GridItem>
+            <GridItem xs={12} sm={12} md={6}>
+            <h3>
+            MISSION            </h3>
+            <h4>
+            To increase access to education and information resources for neighbourhood youth, create greater social cohesion among the community, and work towards developing capacity so that neighbourhood youth have improved chances at better opportunities            </h4>
+            <br/>
+          </GridItem>
+          <GridItem xs={12} sm={12} md={6}>
+          <h3>
+          VISION            </h3>
+          <h4>
+          A healthy, resilient community of youth with equitable access to opportunities.        </h4>
+          <br/>
+        </GridItem>
           </GridContainer>
         </div>
       </Parallax>

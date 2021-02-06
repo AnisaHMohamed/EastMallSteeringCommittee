@@ -21,6 +21,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.js";
 import Paginations from "components/Pagination/Pagination.js";
 import Badge from "components/Badge/Badge.js";
+import SectionTabs from "./SectionTabs.js";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/basicsStyle.js";
 
@@ -72,8 +73,10 @@ export default function SectionBasics() {
     <div className={classes.sections}>
       <div className={classes.container}>
         <div className={classes.title}>
-          <h2>Basic Elements</h2>
+          <SectionTabs  />
+
         </div>
+
         <div id="buttons">
           <div className={classes.title}>
             <h3>
