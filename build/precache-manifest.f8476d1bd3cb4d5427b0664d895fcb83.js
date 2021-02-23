@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc50f6dc3c0f88ac41699b2236a8926a",
+    "revision": "c1dc43ea86883d616ae471a864b1dad4",
     "url": "/index.html"
   },
   {
-    "revision": "add408ca3abf8f7c9a5d",
+    "revision": "6e8ec2bf8e0642a736e2",
     "url": "/static/css/main.c5a3ee5c.chunk.css"
   },
   {
-    "revision": "a242affec70fa3838289",
-    "url": "/static/js/2.57ffa681.chunk.js"
+    "revision": "2954f7a407f1d0533fca",
+    "url": "/static/js/2.6fa195fe.chunk.js"
   },
   {
-    "revision": "8dbc9bd92b344a5deca62eeacc09fc2d",
-    "url": "/static/js/2.57ffa681.chunk.js.LICENSE.txt"
+    "revision": "d09ac505fec0e9130a1d5b85fb3fa6dc",
+    "url": "/static/js/2.6fa195fe.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "add408ca3abf8f7c9a5d",
-    "url": "/static/js/main.2a0a6198.chunk.js"
+    "revision": "6e8ec2bf8e0642a736e2",
+    "url": "/static/js/main.d047f527.chunk.js"
   },
   {
     "revision": "deaf17d855cbdaf7344d",
     "url": "/static/js/runtime-main.47788c5d.js"
   },
   {
-    "revision": "f1d71f777331fd7e3de116edf4ee3b67",
-    "url": "/static/media/avatar.f1d71f77.jpg"
+    "revision": "68454e7f462e2fae40cf2d55d79750d4",
+    "url": "/static/media/EastMall.68454e7f.jpeg"
+  },
+  {
+    "revision": "0eda012ae867f993231d4c5195417b64",
+    "url": "/static/media/Projects.0eda012a.jpeg"
   },
   {
     "revision": "e52419719dd0c4c8b172136f0b625008",
@@ -38,10 +42,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e76de24b6d8ab5e920bb4d49241ad15f",
     "url": "/static/media/bg3.e76de24b.jpg"
-  },
-  {
-    "revision": "199e9ec14308832c6a8a49bd96c1fde6",
-    "url": "/static/media/bg4.199e9ec1.jpg"
   },
   {
     "revision": "b08234a2b7e8e4fb2e3c4e713252021c",
@@ -68,10 +68,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/landing-bg.df8fd3ef.jpg"
   },
   {
-    "revision": "08e18cb904f0f3c6dd9e3d4ed72e0eca",
-    "url": "/static/media/landing.08e18cb9.jpg"
-  },
-  {
     "revision": "4575c40bfb8dec6713d2da51c4c4066e",
     "url": "/static/media/mariya-georgieva.4575c40b.jpg"
   },
@@ -82,14 +78,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "baf6b40a654b078399e93e3d9cb6d455",
     "url": "/static/media/profile-bg.baf6b40a.jpg"
-  },
-  {
-    "revision": "090a5aabae505f67ee0981613d02ee05",
-    "url": "/static/media/profile.090a5aab.jpg"
-  },
-  {
-    "revision": "cf8b686b294041d0925f4e745b1fabb9",
-    "url": "/static/media/sign.cf8b686b.jpg"
   },
   {
     "revision": "ae0150c08dbcc95e4f50458e02e5bd5c",
