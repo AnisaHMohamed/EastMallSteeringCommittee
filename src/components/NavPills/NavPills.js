@@ -101,7 +101,7 @@ export default function NavPills(props) {
 
 NavPills.defaultProps = {
   active: 0,
-  color: "primary"
+  color: "black"
 };
 
 NavPills.propTypes = {

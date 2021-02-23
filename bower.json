@@ -1,10 +1,10 @@
 {
-  "name": "material-kit-react",
-  "homepage": "https://github.com/creativetimofficial/material-kit-react",
+  "name": "Anisa Mohamed",
+  "homepage": "https://github.com/AnisaHMohamed",
   "authors": [
-    "creative-tim"
+    "anisa-mohamed"
   ],
-  "description": "A Badass Material-UI Kit based on Material Design",
+  "description": "EMSC",
   "main": "dist/index.js",
   "keywords": [
     "material",
@@ -13,7 +13,7 @@
     "google",
     "twitter"
   ],
-  "license": "Creative TIM License",
+  "license": "Anisa License",
   "ignore": [
     "**/.*",
     "node_modules",

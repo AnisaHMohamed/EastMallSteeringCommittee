@@ -8,8 +8,6 @@ import classNames from "classnames";
 import { List, ListItem } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
-// @material-ui/icons
-import Favorite from "@material-ui/icons/Favorite";
 
 import styles from "assets/jss/material-kit-react/components/footerStyle.js";
 
@@ -31,55 +29,14 @@ export default function Footer(props) {
       <div className={classes.container}>
         <div className={classes.left}>
           <List className={classes.list}>
+          
             <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.anisatalkstech.com"
-                className={classes.block}
-                target="_blank"
-              >
-                Anisa Talks Tech
-              </a>
+      
             </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.anisatalkstech.com"
-                className={classes.block}
-                target="_blank"
-              >
-                About us
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.anisatalkstech.com"
-                className={classes.block}
-                target="_blank"
-              >
-                Blog
-              </a>
-            </ListItem>
-            <ListItem className={classes.inlineBlock}>
-              <a
-                href="https://www.anisatalkstech.com"
-                className={classes.block}
-                target="_blank"
-              >
-                Licenses
-              </a>
-            </ListItem>
+            
           </List>
         </div>
-        <div className={classes.right}>
-          &copy; {1900 + new Date().getYear()} , made with{" "}
-          <Favorite className={classes.icon} /> by{" "}
-          <a
-            href="https://www.anisatalkstech.com"
-            className={aClasses}
-            target="_blank"
-          >Anisa 
-          </a>{" "}
-          Talks Tech.
-        </div>
+        
       </div>
     </footer>
   );

@@ -1,7 +1,5 @@
 /*eslint-disable*/
 import React from "react";
-import DeleteIcon from "@material-ui/icons/Delete";
-import IconButton from "@material-ui/core/IconButton";
 // react components for routing our app without refresh
 import { Link } from "react-router-dom";
 
@@ -11,11 +9,7 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Tooltip from "@material-ui/core/Tooltip";
 
-// @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
 
-// core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
 import styles from "assets/jss/material-kit-react/components/headerLinksStyle.js";
@@ -27,30 +21,51 @@ export default function HeaderLinks(props) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-        <CustomDropdown
-          noLiPadding
-          buttonText="More"
-          buttonProps={{
-            className: classes.navLink,
-            color: "transparent"
-          }}
-          buttonIcon={Apps}
-          dropdownList={[
-            <Link to="/" className={classes.dropdownLink}>
-              More
-            </Link>,
-            <Link to="/about" className={classes.dropdownLink}>
-            About
-          </Link>,
-          <Link to="/history" className={classes.dropdownLink}>
-          History
-        </Link>,
-        <Link to="/projects" className={classes.dropdownLink}>
-        Projects
-      </Link>
-          ]}
-        />
+
+        <Button
+          color="transparent"
+          target="_blank"
+        >
+          <Link to="/" className={classes.navLink}>
+            Home
+     </Link>
+        </Button>
       </ListItem>
+      <ListItem className={classes.listItem}>
+
+        <Button
+          color="transparent"
+          target="_blank"
+        >
+          <Link to="/about" className={classes.navLink}>
+            About
+</Link>
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+
+        <Button
+          color="transparent"
+          target="_blank"
+        >
+          <Link to="/projects" className={classes.navLink}>
+            Projects
+</Link>
+        </Button>
+      </ListItem>
+
+      <ListItem className={classes.listItem}>
+
+        <Button
+          color="transparent"
+          target="_blank"
+        >
+          <Link to="/history" className={classes.navLink}>
+            History
+</Link>
+        </Button>
+      </ListItem>
+
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-tooltip"
@@ -64,7 +79,7 @@ export default function HeaderLinks(props) {
             target="_blank"
             className={classes.navLink}
           >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
+            <i className={classes.socialIcons + " fab fa-instagram"}  />
           </Button>
         </Tooltip>
       </ListItem>
