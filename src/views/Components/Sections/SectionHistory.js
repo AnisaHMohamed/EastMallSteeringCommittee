@@ -5,8 +5,6 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 import styles from "../../../assets/jss/material-kit-react/views/components.js";
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
 
 const useStyles = makeStyles(styles);
 
