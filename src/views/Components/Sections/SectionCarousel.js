@@ -10,9 +10,18 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Card from "components/Card/Card.js";
 
-import image1 from "assets/img/bg.jpg";
-import image2 from "assets/img/bg2.jpg";
-import image3 from "assets/img/bg3.jpg";
+import dheexe1 from "assets/img/dheexe1.jpg";
+import dheexe2 from "assets/img/dheexe2.jpg";
+import dheexe3 from "assets/img/dheexe3.jpg";
+import dheexe4 from "assets/img/dheexe4.jpg";
+import dheexe5 from "assets/img/dheexe5.jpeg";
+import dheexe6 from "assets/img/dheexe6.jpg";
+import dheexe7 from "assets/img/dheexe7.jpeg";
+import dheexe8 from "assets/img/dheexe8.jpg";
+
+import mentorship1 from "assets/img/mentorship1.jpg";
+import mentorship2 from "assets/img/mentorship2.jpg";
+import mentorship3 from "assets/img/mentorship3.jpeg";
 
 import styles from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.js";
 
@@ -38,7 +47,7 @@ export default function SectionCarousel() {
             <Card carousel>
               <Carousel {...settings}>
                 <div>
-                  <img src={image1} alt="First slide" className="slick-image" />
+                  <img src={dheexe1} alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                       <h6> 
                       From September to April 2018, EMSC facilitated DHEXE EE: Somali
@@ -51,7 +60,7 @@ EE is a milestone for EMSC.
                 </div>
                 <div>
                   <img
-                    src={image2}
+                    src={dheexe2}
                     alt="Second slide"
                     className="slick-image"
                   />
@@ -61,12 +70,12 @@ EE is a milestone for EMSC.
                     our first structured project, our first arts project, the first time our community
                     came together to create something, and the reason for our current strategic
                     partnerships.
-</h6>
+                    </h6>
                   </div>
                 </div>
                 <div>
                 <img
-                  src={image2}
+                  src={dheexe3}
                   alt="Second slide"
                   className="slick-image"
                 />
@@ -81,7 +90,7 @@ community to share their experience of community space.
                 </div>
               </div>
                 <div>
-                  <img src={image3} alt="Third slide" className="slick-image" />
+                  <img src={dheexe4} alt="Third slide" className="slick-image" />
                   <div className="slick-caption">
       
                     <h6>
@@ -95,7 +104,7 @@ Meaning “in the middle” in Somali, DHEXE EE
                   
                 </div>
                 <div>
-                <img src={image1} alt="Fourth slide" className="slick-image" />
+                <img src={dheexe5} alt="Fourth slide" className="slick-image" />
                 <div className="slick-caption">
          
                     <h6>
@@ -110,7 +119,7 @@ Meaning “in the middle” in Somali, DHEXE EE
               </div>
               <div>
               <img
-                src={image2}
+                src={dheexe6}
                 alt="Second slide"
                 className="slick-image"
               />
@@ -125,7 +134,7 @@ Meaning “in the middle” in Somali, DHEXE EE
               </div>
             </div>
               <div>
-              <img src={image1} alt="Fifth slide" className="slick-image" />
+              <img src={dheexe7} alt="Fifth slide" className="slick-image" />
               <div className="slick-caption">
                   <h6>
                   Youth reported feeling a greater sense of rootedness from the project, parents felt engaged, and the
@@ -136,7 +145,7 @@ Meaning “in the middle” in Somali, DHEXE EE
               </div>
             </div>
             <div>
-            <img src={image1} alt="Fifth slide" className="slick-image" />
+            <img src={dheexe8} alt="Fifth slide" className="slick-image" />
             <div className="slick-caption">
                 <h6>
                 Most critically, the project was a spring board for strategic partnerships we
@@ -157,7 +166,7 @@ Meaning “in the middle” in Somali, DHEXE EE
             <Card carousel>
               <Carousel {...settings}>
                 <div>
-                  <img src={image1} alt="First slide" className="slick-image" />
+                  <img src={mentorship1} alt="First slide" className="slick-image" />
                   <div className="slick-caption">
                       <h6>
                       
@@ -172,7 +181,7 @@ Meaning “in the middle” in Somali, DHEXE EE
                 </div>
                 <div>
                   <img
-                    src={image2}
+                    src={mentorship2}
                     alt="Second slide"
                     className="slick-image"
                   />
@@ -189,7 +198,7 @@ Meaning “in the middle” in Somali, DHEXE EE
                   </div>
                 </div>
                 <div>
-                  <img src={image3} alt="Third slide" className="slick-image" />
+                  <img src={mentorship3} alt="Third slide" className="slick-image" />
                   <div className="slick-caption">
                 
                     <h6>
