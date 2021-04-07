@@ -30,7 +30,25 @@ export default function SectionAbout() {
 VISION            </h2>
 <h4>
 A healthy, resilient community of youth with equitable access to opportunities.        </h4>
-<br/>    <br/>
+<br/>  
+
+<h2>
+FOUNDER RECOGNITION            </h2>
+<h4>
+EMSC is a local youth-led and youth-serving grassroots group. EMSC recognizes that our community partners support our work and our funders power it.
+
+
+
+We want to thank the <a href="https://www.toronto.ca/city-government/accountability-operations-customer-service/city-administration/staff-directory-divisions-and-customer-service/social-development-finance-administration/"
+>City of Toronto</a>
+, <a href="https://www.torontohousing.ca/">Toronto Community Housing</a>
+, the Youth Opportunity Fund at the  <a href="https://otf.ca/">Ontario Trillium Foundation</a>, and <a href="https://www.socialplanningtoronto.org/">Social Planning Toronto</a>.
+
+
+
+We want to highlight our organizational mentor's work, the <a href="https://www.acctonline.ca/">Arab Community Centre of Toronto (ACCT)</a>. ACCT has been supporting EMSC since its inception, and we are forever grateful.      </h4>
+<br/> 
+<br/><br/><br/>
         </div>
       
   );

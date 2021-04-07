@@ -40,7 +40,7 @@ export default function Components(props) {
         <div className={classes.container}>
                 <h1 className={classes.title}>EAST MALL STEERING COMMITTEE</h1>
                 <h2 className={classes.subtitle}>
-                 A Little About Us
+                 A Little About Us and Our Founders
                 </h2>
         </div>
       </Parallax>
